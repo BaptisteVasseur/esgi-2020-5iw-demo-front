@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "vue-cli-service build --target lib --name myLib js/app.js",
-    "deploy": "npm run build && git add . && git commit && git push origin/gh-pages",
+    "deploy": "npm run build && git add . && git commit -m update && git push origin gh-pages",
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint"
   }
